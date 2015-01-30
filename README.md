@@ -1,3 +1,7 @@
+[![Gem Version](https://badge.fury.io/rb/double_round_robin_schedule.png)](http://badge.fury.io/rb/double_round_robin_schedule)
+[![Build Status](https://travis-ci.org/nithinstany/double_round_robin_schedule.png?branch=master)](https://travis-ci.org/nithinstany/double_round_robin_schedule)
+
+
 # Round Robin Tournament
 
 This little ruby gem implements the [Round Robin Tournament](http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm) scheduling. It is useful when you want a competition "in which each contestant meets all other contestants in turn", or if you have a classroom of students and want them to work in pairs, but with a different partner every day.
