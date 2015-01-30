@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DoubleRoundRobinSchedule::VERSION
   spec.authors       = ["nithin stany dsouza"]
   spec.email         = ["nithinstany@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Round Robin Tournament schedule for competitions or classroom teams}
+  spec.description   = spec.summary
   spec.homepage      = "https://github.com/nithinstany/double_round_robin_schedule"
   spec.license       = "MIT"
 
