@@ -20,6 +20,12 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency 'minitest'
+  
 
+
+  if RUBY_VERSION == "1.8.7"
+    spec.add_development_dependency 'minitest', '3.2.0'
+  else
+    spec.add_development_dependency 'minitest'
+  end 
 end
