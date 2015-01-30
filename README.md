@@ -1,6 +1,6 @@
 # Round Robin Tournament
 
-This little ruby gem implements the Round Robin Tournament scheduling. It is useful when you want a competition "in which each contestant meets all other contestants in turn", or if you have a classroom of students and want them to work in pairs, but with a different partner every day.
+This little ruby gem implements the [Round Robin Tournament](http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm) scheduling. It is useful when you want a competition "in which each contestant meets all other contestants in turn", or if you have a classroom of students and want them to work in pairs, but with a different partner every day.
 
 ## Installation
 
@@ -23,7 +23,7 @@ require "double_round_robin_schedule"
 
 # Compute all the possible teams for each day in the classroom
 playing_teams = %w(team1 team2 team3 team4)
-matches = RoundRobinTournament.schedule(playing_teams)
+matches = DoubleRoundRobinSchedule.schedule(playing_teams)
 
 # Print for each day, each team
 matches.each_with_index do |day, index|
